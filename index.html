@@ -1,24 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Plyr Video</title>
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
-</head>
-<body>
-    <div class="plyr__video-embed" id="player">
-        <iframe
-            src="https://app.box.com/shared/static/25lii7m2zazp3ao6d38ie8yy0wqiqfya.mp4"
-            allowfullscreen
-            allow="autoplay; encrypted-media"
-        ></iframe>
-    </div>
-    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
-    <script>
-        const player = new Plyr('#player', {
-            controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
-        });
-    </script>
-</body>
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+<video width="400" controls>
+  <source src="https://app.box.com/index.php?rm=box_download_shared_file&shared_name=4n7xwsjhz5rdhxo22ox9fg7onucl98yg&file_id=f_1127033309244" type="video/mp4">
+  <source src="https://app.box.com/index.php?rm=box_download_shared_file&shared_name=4n7xwsjhz5rdhxo22ox9fg7onucl98yg&file_id=f_1127033309244" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+
+<p>
+HTML5 Video plpayer with Box direct link
+
+
+</body> 
 </html>
